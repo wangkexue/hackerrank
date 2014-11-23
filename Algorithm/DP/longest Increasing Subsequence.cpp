@@ -31,7 +31,7 @@ int main() {
   return 0;
 }
 
-/* average case O(nk) solution */
+/* average case O(nlogk) solution */
 int main(vector<int> a) {
   vector<int> subseq;
   int i, tmp;
