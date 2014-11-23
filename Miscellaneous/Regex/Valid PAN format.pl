@@ -1,6 +1,6 @@
 my $count = <>;
 while (<>) {
-    if (/[A-Z]{5}[0-9]{4}[A-Z]/) {
+    if (/[A-Z]{5}\d{4}[A-Z]/) {
         print "YES\n";
     }
     else {
