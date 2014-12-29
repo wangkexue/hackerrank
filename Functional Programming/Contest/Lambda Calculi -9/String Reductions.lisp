@@ -6,3 +6,8 @@
 (setq str (coerce (read-line) 'list))
 
 (princ (coerce (str-reduce str) 'string))
+
+;; there is a build-in solution
+;; derive from cal_whale
+(let ((s (read-line)))
+     (princ (remove-duplicates s :test #'char-equal :from-end t)))
